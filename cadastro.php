@@ -3,7 +3,6 @@ var_dump($_POST);
 include ("conexao_banco.php");
 
 
-
 $query = "SELECT * FROM clientes WHERE id = " . $_GET["id"];
 
 $result = $conexao->query($query);
